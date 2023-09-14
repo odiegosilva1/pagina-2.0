@@ -21,6 +21,8 @@ Este projeto é a culminação do Módulo Front-end 1 do programa de formação 
  ┃ ┗ 📜 style.css
  ┣ 📂 img
  ┣ 📜 index.html
+ ┣ 📜 skills.html
+ ┣ 📜 goals.html
  ┗ 📜 README.md
 ```
 
