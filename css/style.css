@@ -1,0 +1,164 @@
+  /* Estilos padrão */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trispace', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 auto; 
+    
+}
+
+.aside {
+    margin: 0;
+    flex: 1;
+    padding: 0 auto;
+    padding-bottom: 0; 
+
+    margin-right: auto;
+    margin-left: auto;
+}           
+
+.aside img {
+    max-width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.329);           
+
+           
+    border: 1px solid rgb(23, 24, 24);
+}
+
+.main {
+    flex: 2;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+/*an imations */
+
+
+
+h2 {
+    font-weight: 500; 
+    padding: 0; 
+}
+
+span {
+    font-weight: bold;
+    color: rgb(23, 71, 71);
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+#social-links {
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#social-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #141414;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: inline;
+   
+}
+
+#social-links a:hover{
+   color: rgb(23, 71, 71);
+   transition: 1s;
+    
+}
+
+nav ul  {
+   margin: 0;
+   padding: 15px;
+   
+}
+
+nav ul li {
+   
+    list-style: none;
+    padding-inline: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    padding: 16px;
+    text-decoration: none;
+    
+}
+
+
+nav ul li a:hover {
+    color: rgb(255, 253, 253);
+    background:rgb(23, 71, 71);
+    transition: 1s;
+  }
+
+/* Consulta de mídia para telas médias (até 768px) */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .aside,
+    .main {
+        flex: auto;
+        margin-bottom: 20px;
+    }
+
+    .aside {
+        order: -1;
+    }
+}
+
+/* Consulta de mídia para telas grandes (acima de 1300px) */
+@media screen and (min-width: 1301px) {
+    .container {
+        padding: 40px;
+    }
+
+    .aside {
+        padding: 40px;
+    }
+}
+
+/* Consulta de mídia para telas pequenas (até 480px) */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .aside,
+    .main {
+        padding: 10px;
+    }
+}
+
+
