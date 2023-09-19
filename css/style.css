@@ -87,6 +87,14 @@ p {
     
 }
 
+#skills-list {
+    padding: 3rem;
+    display: flex;
+    font-size: 4rem;
+    list-style: none ;
+}
+
+
 nav ul  {
    margin: 0;
    padding: 15px;
