@@ -44,9 +44,14 @@ h1 {
     font-weight: 500;
 }
 
-/*an imations */
+/*Skills */
 
-
+#skills-list {
+    padding: 3rem;
+    display: flex;
+    font-size: 4rem;
+    list-style: none ;
+}
 
 h2 {
     font-weight: 500; 
