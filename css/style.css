@@ -85,9 +85,13 @@
   }
 
   #skills-list {
-      display: flex;
-      font-size: 5rem;
-      list-style: none; 
+      display: block;
+      font-size: 2.5rem;
+      list-style: none;
+      list-style-type: upper-alpha;
+      padding-left: 100px;
+ 
+      
 
   }
 
@@ -104,6 +108,7 @@
       padding-inline: 8px;
       margin-right: auto;
       margin-left: auto;
+      
   }
 
 
@@ -115,6 +120,7 @@
       font-weight: bold;
       padding: 16px;
       text-decoration: none;
+      
 
   }
 
